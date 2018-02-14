@@ -1,0 +1,32 @@
+{
+    "name": "PROD",
+    "description": "PROD Environment File",
+    "cookbook_versions": {},
+    "json_class": "Chef::Environment",
+    "chef_type": "environment",
+    "default_attributes": {
+        "appd": {
+            "agent_user": "appd",
+            "agent_user_password": "changeit2018",
+            "agent_group": "appd",
+            "controller_host": "",	
+            "controller_port": "",
+            "controller_ssl": "",
+            "controller_account_name" : "",
+            "controller_accesskey": "",	
+            "controller_app_name": "",            
+            "controller_tier_name": "",          	 		            	 		         
+            "controller_node_name": "",
+            "controller_access_key" : "",
+            "agent_unzip_path": "",
+            "agent_install_location" : "",
+            "agent_package_name" : "machineagent-bundle-64bit-linux-4.3.3.13.zip",
+            "agent_package_url" : "https://artifactory.srv.westpac.com.au/artifactory/list/HJ-001_ECM/",
+            "agent_ca_cert_name": "cacerts.jks",
+            "agent_jre_enabled": "true",
+            "ad_controller_url": "",
+            "http.event.endpoint":"",
+            "http.event.accountName":"",
+            "http.event.accessKey":""
+         }
+}
